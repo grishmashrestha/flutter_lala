@@ -44,7 +44,12 @@ class HomePage extends StatelessWidget {
           RaisedButton(
             onPressed: () {},
             color: Colors.yellow,
-            child: Text("Raised button"),
+            child: Text("Raised Button"),
+          ),
+          FlatButton(
+            onPressed: () {},
+            child: Text("Flat Button"),
+            color: Colors.red,
           )
         ],
       ),
