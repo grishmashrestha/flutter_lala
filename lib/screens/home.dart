@@ -13,10 +13,29 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("This is title"),
       ),
-      body: Container(
-        height: 100,
-        width: 100,
-        color: Colors.orange,
+      // body: Container(
+      //   height: 100,
+      //   width: 100,
+      //   color: Colors.orange,
+      // ),
+      body: Column(
+        children: [
+          Container(
+            height: 50,
+            width: 50,
+            color: Colors.purple,
+          ),
+          Container(
+            height: 50,
+            width: 50,
+            color: Colors.green,
+          ),
+          Container(
+            height: 50,
+            width: 50,
+            color: Colors.pink,
+          )
+        ],
       ),
     );
   }
