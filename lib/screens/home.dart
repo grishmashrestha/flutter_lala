@@ -138,7 +138,13 @@ class HomePage extends StatelessWidget {
           ),
           SizedBox(
             height: 20,
-          )
+          ),
+          Container(
+              height: 50,
+              width: 50,
+              // color: Colors.blue.shade100,
+              // color: Color.fromRGBO(255, 0, 0, 1),
+              color: Color(0xffb74093))
         ],
       ),
     );
