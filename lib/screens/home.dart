@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    print("inside first build method");
     // return Container(
     //   height: 100,
     //   width: 100,
@@ -12,6 +13,7 @@ class HomePage extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text("This is title"),
+        actions: [Text("action")],
       ),
       // body: Container(
       //   height: 100,
