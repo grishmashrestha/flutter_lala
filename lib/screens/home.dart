@@ -19,6 +19,7 @@ class HomePage extends StatelessWidget {
       //   color: Colors.orange,
       // ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Container(
             height: 50,
@@ -34,7 +35,12 @@ class HomePage extends StatelessWidget {
             height: 50,
             width: 50,
             color: Colors.pink,
-          )
+          ),
+          Text(
+            "This is text",
+            style: TextStyle(color: Colors.red),
+          ),
+          TextField()
         ],
       ),
     );
