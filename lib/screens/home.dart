@@ -40,7 +40,12 @@ class HomePage extends StatelessWidget {
             "This is text",
             style: TextStyle(color: Colors.red),
           ),
-          TextField()
+          TextField(),
+          RaisedButton(
+            onPressed: () {},
+            color: Colors.yellow,
+            child: Text("Raised button"),
+          )
         ],
       ),
     );
