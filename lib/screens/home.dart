@@ -13,7 +13,23 @@ class HomePage extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text("This is title"),
-        actions: [Text("action")],
+        // actions: [Text("action")],
+        actions: [
+          Icon(
+            Icons.phone,
+            color: Colors.white,
+          ),
+          SizedBox(
+            width: 30,
+          ),
+          Icon(
+            Icons.video_call,
+            color: Colors.white,
+          ),
+          SizedBox(
+            width: 30,
+          ),
+        ],
       ),
       // body: Container(
       //   height: 100,
