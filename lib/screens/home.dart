@@ -50,6 +50,32 @@ class HomePage extends StatelessWidget {
             onPressed: () {},
             child: Text("Flat Button"),
             color: Colors.red,
+          ),
+          Image.network(
+            "https://solarsystem.nasa.gov/system/basic_html_elements/11561_Sun.png",
+            height: 50,
+            width: 50,
+          ),
+          Container(
+            color: Colors.transparent,
+            height: 200,
+            width: 200,
+            child: Stack(
+              children: [
+                Text("I am at back"),
+                Container(
+                  height: 200,
+                  width: 200,
+                  color: Colors.purple,
+                ),
+                Container(
+                  height: 150,
+                  width: 150,
+                  color: Colors.green,
+                ),
+                Text("I am at top")
+              ],
+            ),
           )
         ],
       ),
